@@ -11,8 +11,8 @@
         <meta name="mobile-web-app-capable" content="yes">
         <title>Pawandeep Singh</title>
         <link rel="icon" sizes="192x192" href="images/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
         <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -20,17 +20,23 @@
 
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
+        <div class="banner">
+            <p  class="text-center "id="banner-text">
+                Transcending Data With Insights
+            </p>
+            <div class="bckbanner">
+
             </div>
+        </div>
+
+
+
+        <div class="container">
             <nav class="navbar">
                 <div class="row">
                     <ul class="nav nav-pills nav-justified">
                         <li role="presentation"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#project">Projects</a></li>
+                        <li role="presentation"><a href="#project" text-decoration-color="white">Projects</a></li>
                         <li role="presentation"><a href="Pawandeep_Singh.pdf">Resume</a></li>
                     </ul>
                 </div>
@@ -47,7 +53,7 @@
 
                     </div>
                     <div class="col-md-8">
-                        <p id="about">
+                        <p id="about" class="text-muted">
                             My name is Pawandeep Singh and am interest in creating data driven products which
                             delights users.My interest lies at the intersection of Mathematics, Machine Learning and
                             Statistics. I am actively looking for full time positions in analytics.
@@ -61,41 +67,88 @@
             <section>
                 <div id="projects" class="row">
                     <div class="col-md-12">
-                        <h3>Featured Projects</h3>
+                        <h3 id="project-banner">Featured Projects</h3>
                     </div>
                     <div class="col-md-12">
                         <hr>
                     </div>
-                    <div class="row">
+                    <div id="project" class="row">
                         <div class="col-md-2">
                             <picture>
                                 <a href="https://github.com/singhpawan">
                                 <img src="images/car.png" alt="CraigcarDeals" /></a>
                             </picture>
+                            <b id="project-heading" class="text-center">CraigCarDeals</b>
                         </div>
                         <div class="col-md-10 text-center">
                             <p>
+
                                 when I went to Craigslist to find a used car.There were lots of good deals on Craigslist, but it took way too long to find them.
                                  When I searched for a particular model, I got hundreds of hits, but only a few of the hits included the mileage in the posting title.
                                  Since I needed the mileage to know whether I was getting a good deal, I had to click on each of the hundreds of listings. Pretty time consuming.
+                                 <a href="https://github.com/singhpawan/">...more</a>
                             </p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div id = "project" class="row">
                         <div class="col-md-2">
                             <picture>
-                                <img src="images/gong.png" width="128px"height="128px"alt="gong" />
+                                <a href="https:github.com/singhpawan/gong">
+                                <img src="images/gong.png" width="128px"height="128px"alt="gong" class="img-circle" /></a>
                             </picture>
+                            <b id="project-heading" class="text-center">LinkClickScorer</b>
+
                         </div>
                         <div class="col-md-10 text-center">
                             <p>
                                 As part of a challenge dataset. The data contained articles read by the users in a apache log files. The challenge was
                                 to determine the likelihood of a user clicking on an article of particular topic based on 3 Months of historical data.
                                 Users were being sent a set amount of articles to be read in email each day. The log files contained which articles users were
-                                interested in reading.
+                                interested in reading.<a href="https://github.com/singhpawan/gong">...more</a>
                             </p>
                         </div>
                     </div>
+                    <div id = "project" class="row">
+                        <div class="col-md-2">
+                            <picture>
+                                <a href="https:github.com/singhpawan/">
+                                <img src="images/alzheimers.jpg" width="128px"height="128px"alt="Data Mining Project" class="img-circle" /></a>
+                            </picture>
+                            <b id="project-heading" class="text-center">Early Alzheimer's Detection</b>
+
+                        </div>
+                        <div class="col-md-10 text-center">
+                            <p>
+                                Thousand of people are diagnozed with Alzheimer's disease each year, with early diagnosis they can take advantage of
+                                early treatment. Based on data collected from thier performance on a web-based memorization test we were able to predict with
+                                a good accuracy their likelihood of developing Alzheimer's. I developed machine learning models in naive bayes,
+                                Svm and neural networks for classification of AD and non-AD patients and predicting the likelihood of developing alzheimer's for new patients.
+                                one of the important learning from this project was to optimize the bias-variance tradeoff.
+                                   <a href="https://github.com/singhpawan/">...more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id = "project" class="row">
+                        <div class="col-md-2">
+                            <picture>
+                                <a href="https:github.com/singhpawan/">
+                                <img src="images/drugs.jpg" width="128px"height="128px"alt="Machine Learning Project" class="img-circle" /></a>
+                            </picture>
+                            <b id="project-heading" class="text-center">Predicting Drug Sensitivity in Cancer Cell Lines</b>
+
+                        </div>
+                        <div class="col-md-10 text-center">
+                            <p>
+                                Each cancer is different. In this project we developed initial algorithms to predict drug sensitivity of different cancer cell lines.
+                                we developed elastic nets and lasso regression models to predict drug sensitivity for different cancer cell lines to
+                                customize treatment for individual patients. Models and visualizations were developed in R. Used Principal Component Analysis for
+                                dimensionality reduction as each individual patient data contained 1639 Mutations, 23316 Copy Number and 18988 Gene Expressions.
+                                One of the major learnings from this project was in using PCA for dimensionality reduction which beomes crucial in feature selection.
+                                   <a href="https://github.com/singhpawan/">...more</a>
+                            </p>
+                        </div>
+                    </div>
+
 
             </section>
 
@@ -107,8 +160,9 @@
                   <div id="social">
                     <a href="https://twitter.com/mepawandeep" class="zocial-twitter">twitter</a>
                     <a href="https://www.facebook.com/pawandeep.me" class="zocial-facebook">facebook</a>
-                    <a href="https://plus.google.com/pawandeep.me" class="zocial-googleplus">google</a>
+                    <a href="https://plus.google.com/u/0/+pawandeepsinghs" class="zocial-googleplus">google</a>
                     <a href="https://github.com/singhpawan" class="zocial-github">github</a>
+                    <a href="mailto:pawandeep.me@gmail.com" class="zocial-email"></a>
                   </div>
                 </footer>
             </div>
