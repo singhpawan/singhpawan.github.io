@@ -195,8 +195,14 @@ svg#logo {
 }
 
 footer{
+<<<<<<< HEAD
    border-bottom: 1px solid #ddd;
-   margin-bottom: 2vh;
+
+||||||| merged common ancestors
+   border-bottom: 1px solid #ddd;  
+=======
+   border-bottom: 1px solid #ddd;
+>>>>>>> 30e46d1561bbb99d7d22826beca00c165f69b17f
 }
 
 header:hover svg#logo {
