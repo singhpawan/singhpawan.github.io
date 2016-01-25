@@ -75,7 +75,7 @@
                     <div id="project" class="row">
                         <div class="col-md-2">
                             <picture>
-                                <a target = "_blank" href="https://github.com/singhpawan/craigdeals">
+                                <a target = "_blank" href="https://github.com/singhpawan">
                                 <img src="images/car.png" alt="CraigcarDeals" /></a>
                             </picture>
                             <b id="project-heading" class="text-center">CraigCarDeals</b>
@@ -86,7 +86,7 @@
                                 when I went to Craigslist to find a used car.There were lots of good deals on Craigslist, but it took way too long to find them.
                                  When I searched for a particular model, I got hundreds of hits, but only a few of the hits included the mileage in the posting title.
                                  Since I needed the mileage to know whether I was getting a good deal, I had to click on each of the hundreds of listings. Pretty time consuming.
-                                 <a target = "_blank" href="https://github.com/singhpawan/craigdeals">...more</a>
+                                 <a target = "_blank" href="https://github.com/singhpawan/">...more</a>
                             </p>
                         </div>
                     </div>
